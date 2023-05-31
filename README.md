@@ -30,7 +30,7 @@ Penjelasan lengkap tetang [EDA](https://github.com/DanielAndresSmg/Home-Credit-D
 Pada tahap modeling, kami menguji beberapa model yang belum di hyperparameter tuning seperti `logistic regression`, `decision tree`, `naive bayes`, `random forest classifier`, `extreme gradient boost`, `KNN` dan `LighGBM`. Setelah model tersebut diuji, kami melakukan evaluasi secara menyeluruh dan didapatkan tiga model dengan akurasi yang relevan diantaranya : 
 | Model | Akurasi(%) | AUC ROC (%) | 
 | --- | --- | --- |
-| `LighGBM` | 73.02 | 89.98 |
+| `LightGBM` | 73.02 | 89.98 |
 | `KNN` | 82.07 | 89.09 |
 | `Extreme Gradient Boost` | 86.3 | 85.66 |
 
