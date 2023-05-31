@@ -47,6 +47,7 @@ Hasil deployment dapat dilihat pada [DASHBOARD](https://app.powerbi.com/view?r=e
 
 ## Hasil Prediksi
 Untuk memudahkan Home Credit dalam menganalisis customer, dapat menggunakan pengelompokkan churn berdasarkan kuartil sebagai berikut :
+![image](https://github.com/DanielAndresSmg/Home-Credit-Default-Risk/blob/main/Insight.png)
 | Kuartil | Deskripsi |
 | --- | --- |
 | 0-25 | Enggange them (sebanyak 11.9%)|
