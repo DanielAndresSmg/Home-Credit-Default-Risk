@@ -9,12 +9,13 @@ Permasalahan yang dihadapi oleh Home Credit adalah risiko churn, yaitu pelanggan
 ### **Dataset**
 | Dataset | Deskripsi |
 | --- | --- |
-|[application_{train/test}](https://www.kaggle.com/competitions/home-credit-default-risk/data) | The main training and testing data with information about each loan application at Home Credit. Every loan has its own row and is identified by the feature SK_ID_CURR. The training application data comes with the TARGET indicating 0: the loan was repaid or 1: the loan was not repaid.|
+|[application_{train/test}](https://www.kaggle.com/competitions/home-credit-default-risk/data) | The main training and testing data with information about each loan application at Home Credit. Every loan has its own row and is identified by the feature `SK_ID_CURR`. The training application data comes with the TARGET indicating 0: the loan was repaid or 1: the loan was not repaid.|
 |[bureau](https://www.kaggle.com/competitions/home-credit-default-risk/data) | Data concerning client's previous credits from other financial institutions. Each previous credit has its own row in bureau, but one loan in the application data can have multiple previous credits.|
 |[bureau_balance](https://www.kaggle.com/competitions/home-credit-default-risk/data) | Monthly data about the previous credits in bureau. Each row is one month of a previous credit, and a single previous credit can have multiple rows, one for each month of the credit length.|
 |[installments_payments](https://www.kaggle.com/competitions/home-credit-default-risk/data) | Payment history for previous loans at Home Credit. There is one row for every made payment and one row for every missed payment.|
 |[credit_card_balance](https://www.kaggle.com/competitions/home-credit-default-risk/data) | Monthly data about previous credit cards clients have had with Home Credit. Each row is one month of a credit card balance, and a single credit card can have many rows.|
 |[pos_cash_balance](https://www.kaggle.com/competitions/home-credit-default-risk/data)| Monthly data about previous point of sale or cash loans clients have had with Home Credit. Each row is one month of a previous point of sale or cash loan, and a single previous loan can have many rows.|
+|[previous_application](https://www.kaggle.com/competitions/home-credit-default-risk/data)| previous applications for loans at Home Credit of clients who have loans in the application data. Each current loan in the application data can have multiple previous loans. Each previous application has one row and is identified by the feature `SK_ID_PREV`.|
 
 ### **Relationship**
 ![image](https://github.com/DanielAndresSmg/Home-Credit-Default-Risk/blob/main/RELATIONSHIP_home_credit.png)
