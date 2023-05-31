@@ -20,10 +20,10 @@ Permasalahan yang dihadapi oleh Home Credit adalah risiko churn, yaitu pelanggan
 ![image](https://github.com/DanielAndresSmg/Home-Credit-Default-Risk/blob/main/RELATIONSHIP_home_credit.png)
 
 ### **Exploratory Data Analysis (EDA)**
-Penjelasan lengkap tetang [EDA]()
+Penjelasan lengkap tetang [EDA](https://github.com/DanielAndresSmg/Home-Credit-Default-Risk/blob/main/Exploratory%20Data%20Analysis%20(EDA).ipynb)
 
 ## Data Prepocesing
-Img Flow
+![image](https://github.com/DanielAndresSmg/Home-Credit-Default-Risk/blob/main/Flow.jpg)
 
 ## Modeling dan Evaluasi
 ### **Modeling**
